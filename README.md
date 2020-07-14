@@ -9,8 +9,11 @@ Cordova Exoplayer Plugin
 ## Message from the maintainer:
 
 Used 
+
 -- Exoplayer v2.11.7
+
 -- Cordova 8.0.0
+
 -- Android Platform 8.1.0
 
 ## Installation
@@ -26,4 +29,8 @@ Used
 
 ## Special Thanks
 
-"# cordova-plugin-mkVLC" 
+"# cordova-plugin-mkExoplayer"
+
+@frontyard - https://github.com/frontyard/cordova-plugin-exoplayer
+
+@google - https://github.com/google/ExoPlayer
