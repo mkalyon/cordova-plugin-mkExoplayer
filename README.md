@@ -31,6 +31,6 @@ Used
 
 "# cordova-plugin-mkExoplayer"
 
-@frontyard - https://github.com/frontyard/cordova-plugin-exoplayer
+@frontyard - https://github.com/frontyard/cordova-plugin-exoplayer (forked codes)
 
-@google - https://github.com/google/ExoPlayer
+@google - https://github.com/google/ExoPlayer (usage)
