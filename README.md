@@ -25,7 +25,7 @@ Used
 
 ## Usage
 
-           `var url='http://a.com/a.mp4';
+           'var url='http://a.com/a.mp4';
 		var logo='http://a.com/logo.png';
 		var title='Superman Retrun to Home';
 		var epg='Epg1...............\nEpg2...............';
@@ -79,7 +79,7 @@ Used
 			]
 		};
 
-	window.mkExoPlayer.show(parameters, successCallback, errorCallback);`
+	window.mkExoPlayer.show(parameters, successCallback, errorCallback);'
 
 **or You can add parameters items like that**
 
