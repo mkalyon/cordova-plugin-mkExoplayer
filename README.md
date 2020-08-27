@@ -25,7 +25,7 @@ Used
 
 ## Usage
 
-    		var url='http://a.com/a.mp4';
+    `		var url='http://a.com/a.mp4';
 		var logo='http://a.com/logo.png';
 		var title='Superman Retrun to Home';
 		var epg='Epg1...............\nEpg2...............';
@@ -122,8 +122,8 @@ Used
                       { title: "TR: STAR TV UHD", url: "http://a.com/85977", logo: "http://a.com/star.png" },
                       { title: "TR: FOX TV UHD", url: "http://a.com/85973", logo: "http://a.com/foxhd2.png" },
                       { title: "TR: TV8 UHD", url: "http://a.com/85960", logo: "http://a.com/tv8.png" }
-						]
-			};
+			]
+		};
 
 	window.mkExoPlayer.show(parameters, successCallback, errorCallback);
 
@@ -168,7 +168,7 @@ var parameters={
 	(parameters.items).push({title: value.title, url: lnk, logo: logo}); // use loop for all links
 
 	window.mkExoPlayer.show(parameters, successCallback, errorCallback);
-
+`
 ## Special Thanks
 
 "# cordova-plugin-mkExoplayer"
