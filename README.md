@@ -24,8 +24,8 @@ Used
 
 
 ## Usage
-
-           'var url="http://a.com/a.mp4";
+```
+           var url="http://a.com/a.mp4";
 		var logo="http://a.com/logo.png";
 		var title="Superman Retrun to Home";
 		var epg="Epg1...............\nEpg2...............";
@@ -78,12 +78,11 @@ Used
                       { title: "TR: TV8 UHD", url: "http://a.com/85960", logo: "http://a.com/tv8.png" }
 			]
 		};
-
-	window.mkExoPlayer.show(parameters, successCallback, errorCallback);'
-
+	window.mkExoPlayer.show(parameters, successCallback, errorCallback);
+```
 **or You can add parameters items like that**
-
-`var parameters={
+```
+var parameters={
 				url: url,
 				order:0,
 				aspectRatio: 'FIT_SCREEN', // default is FIT_SCREEN
@@ -121,7 +120,8 @@ Used
 
 	(parameters.items).push({title: value.title, url: lnk, logo: logo}); // use loop for all links
 
-	window.mkExoPlayer.show(parameters, successCallback, errorCallback);`
+	window.mkExoPlayer.show(parameters, successCallback, errorCallback);
+```
 	
 ## Special Thanks
 
