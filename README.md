@@ -25,11 +25,11 @@ Used
 
 ## Usage
 
-           'var url='http://a.com/a.mp4';
-		var logo='http://a.com/logo.png';
-		var title='Superman Retrun to Home';
-		var epg='Epg1...............\nEpg2...............';
-		var desc='Description';
+           'var url="http://a.com/a.mp4";
+		var logo="http://a.com/logo.png";
+		var title="Superman Retrun to Home";
+		var epg="Epg1...............\nEpg2...............";
+		var desc="Description";
 		var parameters={
 				url: url, // First url
 				order:0,  // Playlist order
@@ -40,7 +40,7 @@ Used
 				//userAgent:"mkplayer",
 				keyEvent:false, // true return key events to cordova, false key event using player
 				//audioOnly: true, // Only play audio in the backgroud, default is false.
-				//subtitleUrl: 'http://a.com/subtitle.srt', // Optional subtitle url
+				//subtitleUrl: "http://a.com/subtitle.srt", // Optional subtitle url
 				showBuffering: true, //buffer
 				showSpinner:true, // loading spinner
 				timeZone:3, // for epg
