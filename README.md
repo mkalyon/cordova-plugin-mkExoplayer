@@ -1,4 +1,4 @@
-### cordova-plugin-mkExoplayer (NOT READY)
+### cordova-plugin-mkExoplayer (NOT READY and NOT COMPLETED)
 
 For Android, by [mkalyon](https://github.com/mkalyon)
 
@@ -20,13 +20,13 @@ New Features:
 
 -Sending Playlist
 
--Selection Subtitle/Audio track (if media has them)
+-Selection Subtitle/Audio tracks (if media has them)
 
--Loding spinner
+-Loading spinner
 
 -Epg data line
 
--Descrition line
+-Description line
 
 -keyEvent control
 
