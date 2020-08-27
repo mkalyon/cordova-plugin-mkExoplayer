@@ -48,7 +48,7 @@ New Features:
 
 
 ## Usage
-```
+```js
                 var url="http://a.com/a.mp4";
 		var logo="http://a.com/logo.png";
 		var title="Superman Retrun to Home";
@@ -105,7 +105,7 @@ New Features:
 	window.mkExoPlayer.show(parameters, successCallback, errorCallback);
 ```
 **or You can add parameters items like that**
-```
+```js
 			var parameters={
 				url: url,
 				order:0,
