@@ -140,7 +140,7 @@ var parameters={
 				userAgent:"mkplayer",
 				keyEvent:false, // true return key events, false key event using player
 				//audioOnly: true, // Only play audio in the backgroud, default is false.
-				//subtitleUrl: 'http://51.77.201.109/2020/mkiptv8/test/subtitle.srt', // Optional subtitle url
+				//subtitleUrl: 'http://a.com/subtitle.srt', // Optional subtitle url
 				showBuffering: true,
 				showSpinner:true,
 				timeZone:3,
