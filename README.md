@@ -25,7 +25,7 @@ Used
 
 ## Usage
 
-               `var url='http://a.com/a.mp4';
+           `var url='http://a.com/a.mp4';
 		var logo='http://a.com/logo.png';
 		var title='Superman Retrun to Home';
 		var epg='Epg1...............\nEpg2...............';
@@ -65,7 +65,7 @@ Used
 				},
 				items: [
                       { title: "Superman Retrun to Home", url: "http://a.com/a.mp4", logo: "http://a.com/logo.png" },
-                     { title: "TR: STAR TV UHD", url: "http://a.com/85977", logo: "http://a.com/star.png" },
+                      { title: "TR: STAR TV UHD", url: "http://a.com/85977", logo: "http://a.com/star.png" },
                       { title: "TR: TV8 UHD", url: "http://a.com/85960", logo: "http://a.com/tv8.png" },
                       { title: "TR: ATV UHD", url: "http://a.com/85971", logo: "http://a.com/atvhd.png" },
                       { title: "TR: SHOW TV UHD", url: "http://a.com/85976", logo: "http://a.com/showhd.png" },
