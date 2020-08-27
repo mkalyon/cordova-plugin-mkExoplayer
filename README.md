@@ -16,6 +16,18 @@ Used
 
 -- Android Platform 8.1.0
 
+New Features:
+Sending Playlist
+Selection Subtitle/Audio track (if media has them)
+Loding spinner
+Epg data line
+Descrition line
+keyEvent control
+timeZone parameter for clock
+Clock
+Toast message
+Added getSubtitles / getAudios / getVideos / getPlaylist / showToast / createList 
+...
 ## Installation
 
 
@@ -43,7 +55,7 @@ Used
 				//subtitleUrl: "http://a.com/subtitle.srt", // Optional subtitle url
 				showBuffering: true, //buffer
 				showSpinner:true, // loading spinner
-				timeZone:3, // for epg
+				timeZone:3, // for clock
 				controller: { // If this object is not present controller will not be visible
 					streamImage: logo,
 					streamTitle: title,
