@@ -65,7 +65,7 @@ Used
 				},
 				items: [
                       { title: "Superman Retrun to Home", url: "http://a.com/a.mp4", logo: "http://a.com/logo.png" },
-		      	{ title: "TR: ATV UHD", url: "http://a.com/85971", logo: "http://a.com/atvhd.png" },
+		      	  { title: "TR: ATV UHD", url: "http://a.com/85971", logo: "http://a.com/atvhd.png" },
                       { title: "TR: STAR TV UHD", url: "http://a.com/85977", logo: "http://a.com/star.png" },
                       { title: "TR: TV8 UHD", url: "http://a.com/85960", logo: "http://a.com/tv8.png" },
                       { title: "TR: ATV UHD", url: "http://a.com/85971", logo: "http://a.com/atvhd.png" },
@@ -167,8 +167,8 @@ or You can add parameters items like that
 
 	(parameters.items).push({title: value.title, url: lnk, logo: logo}); // use loop for all links
 
-	window.mkExoPlayer.show(parameters, successCallback, errorCallback);
-`
+	window.mkExoPlayer.show(parameters, successCallback, errorCallback);`
+	
 ## Special Thanks
 
 "# cordova-plugin-mkExoplayer"
