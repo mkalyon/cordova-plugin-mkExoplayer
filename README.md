@@ -16,8 +16,8 @@ Used
 
 -- Android Platform 8.1.0
 
-New Features:
-Sending Playlist
+-New Features:
+-Sending Playlist
 Selection Subtitle/Audio track (if media has them)
 Loding spinner
 Epg data line
