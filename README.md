@@ -16,18 +16,20 @@ Used
 
 -- Android Platform 8.1.0
 
--New Features:
+New Features:
+
 -Sending Playlist
-Selection Subtitle/Audio track (if media has them)
-Loding spinner
-Epg data line
-Descrition line
-keyEvent control
-timeZone parameter for clock
-Clock
-Toast message
-Added getSubtitles / getAudios / getVideos / getPlaylist / showToast / createList 
-...
+-Selection Subtitle/Audio track (if media has them)
+-Loding spinner
+-Epg data line
+-Descrition line
+-keyEvent control
+-timeZone parameter for clock
+-Clock
+-Toast message
+-Added getSubtitles / getAudios / getVideos / getPlaylist / showToast / createList 
+-...
+
 ## Installation
 
 
