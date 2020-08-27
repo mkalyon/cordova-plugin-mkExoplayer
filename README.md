@@ -125,9 +125,10 @@ Used
 			]
 		};
 
-	window.mkExoPlayer.show(parameters, successCallback, errorCallback);
-`
+	window.mkExoPlayer.show(parameters, successCallback, errorCallback);`
+
 or You can add parameters items like that
+
 `
 var parameters={
 				url: url,
