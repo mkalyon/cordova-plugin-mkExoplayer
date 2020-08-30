@@ -10,11 +10,9 @@ Cordova Exoplayer Plugin
 
 Used 
 
--- Exoplayer v2.11.7
-
--- Cordova 8.0.0
-
--- Android Platform 8.1.0
+- Exoplayer v2.11.7
+- Cordova 8.0.0
+- Android Platform 8.1.0
 
 New Features:
 
@@ -42,6 +40,17 @@ New Features:
 
 ## Installation
 
+Create a new Cordova Project
+
+    $ cordova create hello com.example.helloapp Hello
+    
+Install the plugin
+
+    $ cd hello
+    $ cordova plugin add https://github.com/mkalyon/cordova-plugin-mkExoplayer.git
+    
+
+Edit `www/js/index.js` and add the following code inside `onDeviceReady`
 
 
 ### Android specifics
