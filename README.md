@@ -49,6 +49,11 @@ New Features:
 
 ## Usage
 ```js
+	var successCallback = function(json) {
+    	};
+
+    	var errorCallback = function(error) {
+    	};
                 var url="http://a.com/a.mp4";
 		var logo="http://a.com/logo.png";
 		var title="Superman Retrun to Home";
@@ -146,7 +151,17 @@ New Features:
 
 	window.mkExoPlayer.show(parameters, successCallback, errorCallback);
 ```
-	
+## More Info
+
+For more information on setting up Cordova see [the documentation](http://cordova.apache.org/docs/en/latest/guide/cli/index.html)
+
+For more info on plugins see the [Plugin Development Guide](http://cordova.apache.org/docs/en/latest/guide/hybrid/plugins/index.html)
+
+General ExoPlayer [documentation](https://google.github.io/ExoPlayer/)
+
+ExoPlayer [source code](https://github.com/google/ExoPlayer)
+https://github.com/mkalyon/cordova-plugin-mkExoplayer
+
 ## Special Thanks
 
 "# cordova-plugin-mkExoplayer"
