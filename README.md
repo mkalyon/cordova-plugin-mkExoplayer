@@ -16,27 +16,17 @@ Used
 
 New Features:
 
--Sending Playlist
+- Sending Playlist
+- Selection Subtitle/Audio tracks (if media has them)
+- Loading spinner
+- Epg data line
+- Description line
+- keyEvent control
+- timeZone parameter for clock
+- Clock
+- Toast message
+- Added getSubtitles / getAudios / getVideos / getPlaylist / showToast / createList 
 
--Selection Subtitle/Audio tracks (if media has them)
-
--Loading spinner
-
--Epg data line
-
--Description line
-
--keyEvent control
-
--timeZone parameter for clock
-
--Clock
-
--Toast message
-
--Added getSubtitles / getAudios / getVideos / getPlaylist / showToast / createList 
-
--...
 
 ## Installation
 
