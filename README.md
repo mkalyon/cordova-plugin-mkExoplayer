@@ -28,6 +28,7 @@ New Features:
 - Added getSubtitles / getAudios / getVideos / getPlaylist / showToast / createList 
 
 ![Screen1](https://raw.githubusercontent.com/mkalyon/screenshoots/master/1a.png)
+<img src="https://raw.githubusercontent.com/mkalyon/screenshoots/master/2a.png" >
 
 ## Installation
 
