@@ -27,8 +27,12 @@ New Features:
 - Toast message
 - Added getSubtitles / getAudios / getVideos / getPlaylist / showToast / createList 
 
-![Screen1](https://raw.githubusercontent.com/mkalyon/screenshoots/master/1a.png)
+
+<img src="https://raw.githubusercontent.com/mkalyon/screenshoots/master/1a.png" >
 <img src="https://raw.githubusercontent.com/mkalyon/screenshoots/master/2a.png" >
+<img src="https://raw.githubusercontent.com/mkalyon/screenshoots/master/3a.png" >
+<img src="https://raw.githubusercontent.com/mkalyon/screenshoots/master/4a.png" >
+<img src="https://raw.githubusercontent.com/mkalyon/screenshoots/master/5a.png" >
 
 ## Installation
 
