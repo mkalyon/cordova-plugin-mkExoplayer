@@ -17,7 +17,7 @@ Used
 New Features:
 
 - Sending Playlist
-- Selection Subtitle/Audio tracks (if media has them)
+- Selection Subtitle/Audio/Quality(hls) tracks (if media has them)
 - Loading spinner
 - Epg data line
 - Description line
