@@ -34,10 +34,10 @@ module.exports = {
         cordova.exec(successCallback, errorCallback, "mkExoPlayer", "playPause", []);
     },
     playPrevious: function (successCallback, errorCallback) {
-            cordova.exec(successCallback, errorCallback, "mkExoPlayer", "playPrevious", []);
+        cordova.exec(successCallback, errorCallback, "mkExoPlayer", "playPrevious", []);
     },
     playNext: function (successCallback, errorCallback) {
-             cordova.exec(successCallback, errorCallback, "mkExoPlayer", "playNext", []);
+        cordova.exec(successCallback, errorCallback, "mkExoPlayer", "playNext", []);
     },
     stop: function (successCallback, errorCallback) {
         cordova.exec(successCallback, errorCallback, "mkExoPlayer", "stop", []);
@@ -67,7 +67,7 @@ module.exports = {
         cordova.exec(successCallback, errorCallback, "mkExoPlayer", "getVideos", []);
     },
     getPlaylist: function (successCallback, errorCallback) {
-            cordova.exec(successCallback, errorCallback, "mkExoPlayer", "getPlaylist", []);
+        cordova.exec(successCallback, errorCallback, "mkExoPlayer", "getPlaylist", []);
     },
     showToast: function (message, successCallback, errorCallback) {
         cordova.exec(successCallback, errorCallback, "mkExoPlayer", "showToast", [message]);
