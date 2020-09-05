@@ -10,7 +10,7 @@ Cordova Exoplayer Plugin
 
 Used 
 
-- Exoplayer v2.11.7
+- Exoplayer v2.11.8
 - Cordova 8.0.0
 - Android Platform 8.1.0
 
