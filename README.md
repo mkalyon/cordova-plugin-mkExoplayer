@@ -190,9 +190,11 @@ If you use android 9.0.0 sdk add cordova-plugin-androidx plugin
 	(parameters.items).push({title: value.title, url: lnk, logo: logo}); // use loop for all links
 
 	window.mkExoPlayer.show(parameters, successCallback, errorCallback);
-	
-**Remote control usage**
+```	
 
+***Remote control usage***
+
+```js
 	keyEvent:false  ==> Player used defined keys
 	Up   : play next
 	Down :play previous
@@ -202,6 +204,13 @@ If you use android 9.0.0 sdk add cordova-plugin-androidx plugin
 	menu key : showMenu
 	
 ```
+
+***How to use video extension***
+use | tag
+video_link|extension
+Example: mpd extension
+"https://www.youtube.com/api/manifest/dash/id/bf5bb2419360daf1/source/youtube?as=fmp4_audio_clear,fmp4_sd_hd_clear&sparams=ip,ipbits,expire,source,id,as&ip=0.0.0.0&ipbits=0&expire=19000000000&signature=51AF5F39AB0CEC3E5497CD9C900EBFEAECCCB5C7.8506521BFC350652163895D4C26DEE124209AA9E&key=ik0|mpd";
+
 ## More Info
 
 For more information on setting up Cordova see [the documentation](http://cordova.apache.org/docs/en/latest/guide/cli/index.html)
