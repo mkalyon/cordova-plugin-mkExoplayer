@@ -3,7 +3,7 @@
 
  Copyright (c) 2020 mkalyon
  
- Original reposity https://github.com/frontyard/cordova-plugin-exoplayer
+ Original repository https://github.com/frontyard/cordova-plugin-exoplayer
 
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal
@@ -34,10 +34,10 @@ module.exports = {
         cordova.exec(successCallback, errorCallback, "mkExoPlayer", "playPause", []);
     },
     playPrevious: function (successCallback, errorCallback) {
-        cordova.exec(successCallback, errorCallback, "mkExoPlayer", "playPrevious", []);
+            cordova.exec(successCallback, errorCallback, "mkExoPlayer", "playPrevious", []);
     },
     playNext: function (successCallback, errorCallback) {
-        cordova.exec(successCallback, errorCallback, "mkExoPlayer", "playNext", []);
+             cordova.exec(successCallback, errorCallback, "mkExoPlayer", "playNext", []);
     },
     stop: function (successCallback, errorCallback) {
         cordova.exec(successCallback, errorCallback, "mkExoPlayer", "stop", []);
@@ -67,13 +67,13 @@ module.exports = {
         cordova.exec(successCallback, errorCallback, "mkExoPlayer", "getVideos", []);
     },
     getPlaylist: function (successCallback, errorCallback) {
-        cordova.exec(successCallback, errorCallback, "mkExoPlayer", "getPlaylist", []);
+            cordova.exec(successCallback, errorCallback, "mkExoPlayer", "getPlaylist", []);
     },
     showToast: function (message, successCallback, errorCallback) {
         cordova.exec(successCallback, errorCallback, "mkExoPlayer", "showToast", [message]);
     },
-    createList: function (successCallback, errorCallback) {
-        cordova.exec(successCallback, errorCallback, "mkExoPlayer", "createList", []);
+    showMenu: function (successCallback, errorCallback) {
+        cordova.exec(successCallback, errorCallback, "mkExoPlayer", "showMenu", []);
     },
     setController: function (controller, successCallback, errorCallback) {
         cordova.exec(successCallback, errorCallback, "mkExoPlayer", "setController", [controller]);
