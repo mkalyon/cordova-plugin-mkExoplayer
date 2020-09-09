@@ -46,6 +46,7 @@ Create a new Cordova Project
 Install the plugin
 
     $ cd hello
+    $ cordova platform add android@8.1.0
     $ cordova plugin add https://github.com/mkalyon/cordova-plugin-mkExoplayer.git
     
 
