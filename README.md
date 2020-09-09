@@ -25,7 +25,7 @@ New Features:
 - timeZone parameter for clock
 - Clock
 - Toast message
-- Added getSubtitles / getAudios / getVideos / getPlaylist / showToast / createList 
+- Added getSubtitles / getAudios / getVideos / getPlaylist / showToast / showMenu 
 
 
 <img src="https://raw.githubusercontent.com/mkalyon/screenshoots/master/1a.png" >
@@ -191,8 +191,8 @@ If you use android 9.0.0 sdk add cordova-plugin-androidx plugin
 
 	window.mkExoPlayer.show(parameters, successCallback, errorCallback);
 	
-	
-	Remote control usage
+**Remote control usage**
+
 	keyEvent:false  ==> Player used defined keys
 	Up   : play next
 	Down :play previous
