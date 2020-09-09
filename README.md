@@ -1,4 +1,4 @@
-### cordova-plugin-mkExoplayer (NOT READY and NOT COMPLETED)
+### cordova-plugin-mkExoplayer 
 
 For Android, by [mkalyon](https://github.com/mkalyon)
 
