@@ -51,6 +51,37 @@ Edit `www/js/index.js` and add the following code inside `onDeviceReady`
 
 ### Android specifics
 
+If you use android 8.1.0 sdk change build.gradle
+
+open app_location/platform/android/build.gradle
+find classpath 'com.android.tools.build:gradle:x.x.x' then change
+classpath 'com.android.tools.build:gradle:3.0.1'
+
+If you use android 9.0.0 sdk add cordova-plugin-androidx plugin
+
+##Cordova execs
+
+'''js
+
+    setStream(url, controllerConfig) // switch stream without disposing of the player. controllerConfig is "controller" part of the inital parameters. 
+    playPause() // will pause if playing and play if paused :-)
+    stop() // will stop the current stream
+    seekTo(milliseconds) // jump to particular poing into the stream
+    getState(successCallback, errorCallback) // returns player state
+    showController() // shows player controller
+    hideController() // hides player controller
+    setController() // sets `controller` part of configuration related to the info bar and control buttons.
+    close() // close and dispose of player, very important to call this method when your app exits!
+    playPrevious() // play previous playlist item
+    playNext // play next playlist item
+    getSubtitles() // get captions if exits
+    getAudios() // show audios if exits
+    getVideos() // show video qualities if exits (only for hls links)
+    getPlaylist() // show playlist 
+    showToast(message) // show toast message 
+    showMenu() // open tools menu (playlist/subtitles/audios/qualties)
+
+'''
 
 ## Usage
 ```js
@@ -78,6 +109,8 @@ Edit `www/js/index.js` and add the following code inside `onDeviceReady`
 				showBuffering: true, //buffer
 				showSpinner:true, // loading spinner
 				timeZone:3, // for clock
+				transParent:true, // alert dialog theme
+				autoStop:true, // when video is finished then auto stop video
 				controller: { // If this object is not present controller will not be visible
 					streamImage: logo,
 					streamTitle: title,
@@ -130,6 +163,8 @@ Edit `www/js/index.js` and add the following code inside `onDeviceReady`
 				showBuffering: true,
 				showSpinner:true,
 				timeZone:3,
+				transParent:true, // alert dialog theme
+				autoStop:true, // when video is finished then auto stop video
 				controller: { // If this object is not present controller will not be visible
 					streamImage: logo,
 					streamTitle: title,
