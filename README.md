@@ -206,6 +206,7 @@ If you use android 9.0.0 sdk add cordova-plugin-androidx plugin
 ```
 
 ***How to use video extension***
+- Do not need it but ExoPlayer sometimes can not select media type, following example link cant play without extension.
 - use | tag
 - video_link|extension
 - Example: mpd extension
