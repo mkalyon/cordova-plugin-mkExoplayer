@@ -8,8 +8,11 @@ Cordova Exoplayer Plugin
 
 ## Message from the maintainer:
 
-Used 
+- Original repository https://github.com/frontyard/cordova-plugin-exoplayer
 
+
+Used 
+- Designed for android box/tv/tablet/phone
 - Exoplayer v2.11.8
 - Cordova 8.0.0
 - Android Platform 8.1.0
