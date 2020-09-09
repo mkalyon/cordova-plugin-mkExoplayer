@@ -61,7 +61,7 @@ If you use android 9.0.0 sdk add cordova-plugin-androidx plugin
 
 ##Cordova execs
 
-'''js
+```js
 
     setStream(url, controllerConfig) // switch stream without disposing of the player. controllerConfig is "controller" part of the inital parameters. 
     playPause() // will pause if playing and play if paused :-)
@@ -81,7 +81,7 @@ If you use android 9.0.0 sdk add cordova-plugin-androidx plugin
     showToast(message) // show toast message 
     showMenu() // open tools menu (playlist/subtitles/audios/qualties)
 
-'''
+```
 
 ## Usage
 ```js
@@ -190,6 +190,17 @@ If you use android 9.0.0 sdk add cordova-plugin-androidx plugin
 	(parameters.items).push({title: value.title, url: lnk, logo: logo}); // use loop for all links
 
 	window.mkExoPlayer.show(parameters, successCallback, errorCallback);
+	
+	
+	Remote control usage
+	keyEvent:false  ==> Player used defined keys
+	Up   : play next
+	Down :play previous
+	Left / Right : seek
+	back: stop and close video
+	enter/ok/dpad_center : once showController twice showMenu
+	menu key : showMenu
+	
 ```
 ## More Info
 
