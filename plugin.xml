@@ -24,7 +24,7 @@
 		<framework src="androidx.annotation:annotation:1.1.0"/>
 		<framework src="androidx.appcompat:appcompat:1.1.0"/>
 		<framework src="com.google.android.material:material:1.0.0"/>
-		<edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
+		<edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application">
 			  <application android:usesCleartextTraffic="true" />
 		 </edit-config>
 		<config-file target="res/xml/config.xml" parent="/*">
